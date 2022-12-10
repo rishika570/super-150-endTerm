@@ -1,0 +1,59 @@
+
+body {
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #2980b9); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to left,rgb(237, 223, 74),rgb(180, 178, 178));
+}
+#box{
+    width:800px;
+    height:300px;
+    background-color:black;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    color: white;
+    bottom:200px;
+    left:210px;
+    font-size: 45px;
+    font-weight: bold;
+}
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:780px;
+    height:300px;
+    border-radius: 15px;
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
+.next{
+    margin-left: 0px;
+    font-size: 30px;
+}
